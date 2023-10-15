@@ -1,1 +1,7 @@
 # DrumTunes
+ For this web project, we only have seven buttons to display on the page, clicking upon which sound would be played. First we would add the DOCTYPE HTML format, then give a suitable title to the web page, in our case it is The Drum Kit .
+ CSS is used to style the different portions and make it more visually appealing.Give whatever color, background color, font-family, margin and font size you want to give to the body and the heading.
+We have given background images of drums, cymbals, etc. to every button to make the page more attractive. All the images are in “images” directory. Additionally, we have given some common styling to all the buttons.
+We have also given styling as to how each button will look when pressed in the class animation. We would append this class using JavaScript whenever a button is pressed.
+We haev coded a sound() function. It will tell which sound should be played when we press or/and click a specific key. Here we have already stored some basic sound effects of drums, cymbals and other percussion instruments, and we will play those sounds (using new Audio) when their respective key is clicked or pressed.  All the sounds are in “music” directory.
+We have also coded animation() function. This will animate the button differently when it is being clicked. To do this, we will add pressed (which we have already defined in CSS file) class to the respective button when it is being clicked.
